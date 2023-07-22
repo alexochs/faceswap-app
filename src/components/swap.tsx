@@ -113,7 +113,7 @@ export default function Swap() {
                 disabled={loading}
             >
                 {loading ? <Loader className="mr-2 h-4 w-4 animate-spin" /> : <ScanFace className="mr-2 h-4 w-4" />}
-                <span>SWAP</span>
+                <span>Swap</span>
             </Button>
 
             {
