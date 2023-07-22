@@ -91,7 +91,7 @@ export default function Swap() {
                         onChange={handleSourceChange}
                         className="hover:cursor-pointer"
                     />
-                    {source && <img src={source} alt="source image" className="rounded-lg" />}
+                    {source && <img src={source} alt="source image" className="rounded-lg border" />}
                 </div>
 
                 <div className="grid w-full max-w-sm items-center gap-1.5">
@@ -103,7 +103,7 @@ export default function Swap() {
                         onChange={handleTargetChange}
                         className="hover:cursor-pointer"
                     />
-                    {target && <img src={target} alt="target image" className="rounded-lg" />}
+                    {target && <img src={target} alt="target image" className="rounded-lg border" />}
                 </div>
             </div>
 
@@ -126,6 +126,6 @@ export default function Swap() {
                         result && <img src={result} alt="result image" className="rounded-lg" />}
                 </div>
             }
-        </div >
+        </div>
     );
 }
