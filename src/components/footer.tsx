@@ -10,7 +10,7 @@ export default function Navbar() {
                     Built by&nbsp;
                     <Link href="https://twitter.com/gyanendralucky" target="_blank" className="font-medium underline hover:cursor-pointer">Gyanendra</Link>
                     &nbsp;&&nbsp;
-                    <Link href="https://alexochs.de" target="_blank" className="font-medium underline hover:cursor-pointer">Alex.</Link>
+                    <Link href="https://instagram.com/ochs.software" target="_blank" className="font-medium underline hover:cursor-pointer">Alex.</Link>
                 </span>
             </div>
         </footer>
